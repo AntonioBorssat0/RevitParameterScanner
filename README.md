@@ -30,7 +30,7 @@ After cloning the repository, you need to set up the project in Visual Studio 20
 2. Select 'Open a project or solution'.
 3. Navigate to the directory where you cloned the repository and open the solution file.
 
-Make sure the solution has required References to communicate with Revit API. To do that, in the `Solution Explorer` window on the right-hand side of the `Visual Studio` window, click `References` and look for `RevitAPI` and `RevitAPIUI` on the list. If they are there, you are good to go. If they don't, you can right-click `References` and click `Add Reference`. The two dll files can be found in Revit installation sub-folder, usually in the path:
+Make sure the solution has required References to communicate with Revit API. To do that, in the `Solution Explorer` window on the right-hand side of the `Visual Studio` window, click `References` and look for `RevitAPI` and `RevitAPIUI` on the list. If they are there, you are good to go. If they are not, you can right-click `References` and click `Add Reference`. The two dll files can be found in Revit installation sub-folder, usually in the path:
 
 ```
 C:\Program Files\Autodesk\Revit 2023
@@ -44,7 +44,7 @@ Now your project is properly configured.
 
 - AddInApp.cs: It is responsible for initializing and terminating the add-in, as well as configure addin ribbon properties.
 - Command.cs: It is responsible for executing the logic when the command is triggered from the ribbon.
-- UI folder: It contains files for the WPF window the user se in Revit.
+- UI folder: It contains files for the WPF window the user sees in Revit.
 - Resources folder: It contains the icons used by the Add-in and its manifest (.addin)
 
 ## Using the Add-In in Revit
@@ -68,7 +68,7 @@ To properly set up in Autodesk Revit 2023 you need to:
 
 ### Usage
 
-When starting Revit 2023, agree with any message shown regarding the new add-in and you may see a Ribbon tab named `Parameters`. Click on it and will show the button for the `Parameter Scanner`. Click on it again and a window will pop up. You may enter the parameter name and value, and then click the button for isolating or selecting the elements.
+When starting Revit 2023, agree with any message shown regarding the new add-in, and you may see a Ribbon tab named `Parameters`. Click on it and will show the button for the `Parameter Scanner`. Click on it again and a window will pop up. You may enter the parameter name and value, and then click the button for isolating or selecting the elements.
 
 Note: the add-in has some restrictions:
 - It only works within Floor Plans, Reflected Ceiling Plans and 3D Views.
