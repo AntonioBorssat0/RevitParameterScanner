@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>ParameterScanner</Name>
+		<Assembly>"C:\Users\anton\Desktop\Eng Challenge\RevitParameterScanner\bin\x64\Debug\RevitParameterScanner.dll"</Assembly>
+		<AddInId>8D8F4FB6-1C48-42B6-87D1-BB5E8A0C9EED</AddInId>
+		<FullClassName>RevitParameterScanner.AddInApp</FullClassName>
+		<VendorId>Antonio Borssato</VendorId>
+		<VendorDescription>An Add-in that isolates and selects elements in the model based on parameter name and value.</VendorDescription>
+	</AddIn>
+</RevitAddIns>
