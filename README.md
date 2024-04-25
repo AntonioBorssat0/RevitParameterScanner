@@ -73,6 +73,7 @@ When starting Revit 2023, agree with any message shown regarding the new add-in,
 Note: the add-in has some restrictions:
 - It only works within Floor Plans, Reflected Ceiling Plans and 3D Views.
 - Parameter name input cannot be left empty.
+- The parameter name should be written exactly as you see in Revit. It is case sensitive. For example: There is a parameter called "Base Offset", if you write "base offset" the add-in won't find the parameter.
 
 ## Contributors
 
